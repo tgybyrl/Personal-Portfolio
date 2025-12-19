@@ -19,7 +19,7 @@ body {
 
 .container {
   border: #000 solid 4px;
-  max-width: 100rem;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
@@ -79,10 +79,10 @@ li {
 
 .triple-column {
   display: grid;
-  grid-template-columns: 30% 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   /* gap: 3rem; */
-  border-top: #000 solid 3px;
-  border-bottom: #000 solid 3px;
+  border-top: #000 solid 0.3rem;
+  border-bottom: #000 solid 0.3rem;
 }
 
 .column-title {
@@ -95,7 +95,7 @@ li {
 }
 
 .projects {
-  border-right: #000 solid 2px;
+  border-right: #000 solid 0.2rem;
 }
 
 .projects .projects-names {
@@ -104,7 +104,7 @@ li {
 }
 
 .projects-section {
-  border-bottom: #000 solid 3px;
+  border-bottom: #000 solid 0.3rem;
 }
 
 .projects-section:last-child {
@@ -117,7 +117,7 @@ li {
 } */
 
 .row {
-  border-right: #000 solid 2px;
+  border-right: #000 solid 0.2rem;
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
@@ -128,7 +128,7 @@ li {
 } */
 
 .opensource {
-  border-top: solid #000 2px;
+  border-top: solid #000 0.2rem;
   padding-right: 1rem;
 }
 
@@ -206,4 +206,7 @@ footer {
   margin-top: 5rem;
   text-align: center;
   font-size: 1.8rem;
+  margin-bottom: 0.4rem;
 }
+
+/* --- RESPONSIVE AYARLARI (MEDIA QUERIES) EKLENICEK --- */
