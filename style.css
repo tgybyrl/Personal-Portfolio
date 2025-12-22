@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-/* to calculate 1 rem as a 10px */
 html {
   font-size: 62.5%;
 }
@@ -15,21 +14,69 @@ body {
   color: #444;
   font-weight: 400;
   line-height: 1;
+  padding: 1rem 0;
 }
 
 .container {
   border: #000 solid 4px;
   max-width: 120rem;
   margin: 0 auto;
+  /* background-color: #fff5f5; */
+}
+
+/* HEADER  */
+
+img {
+  width: 50;
+  height: 50;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #444;
+  font-size: 2.4rem;
+  font-weight: 600;
+  padding: 1rem;
+
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #2f74b3;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  color: #fff;
+  background-color: #2f74b3;
+  border-radius: 0.5rem;
+  padding: 1.2rem 2rem;
+
+  transition: all 0.3s;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #1864ab;
 }
 
 h1 {
   font-size: 6.2rem;
   letter-spacing: 2.5;
-}
-
-h3 {
-  font-size: 2.4rem;
 }
 
 p {
@@ -47,21 +94,11 @@ li {
   gap: 5em;
 }
 
-.page-links a:link,
-.page-links a:visited {
-  text-decoration: none;
-  color: #1864ab;
-}
-
 .main-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 3rem;
-}
-
-.page-links {
-  font-size: 2.4rem;
 }
 
 .img-name {
@@ -174,7 +211,7 @@ li {
 } */
 
 .reviews-title {
-  margin: 3rem 2rem;
+  margin: 4.8rem 0 4.8rem 2rem;
 }
 
 .reviews {
@@ -205,8 +242,8 @@ li {
 footer {
   margin-top: 5rem;
   text-align: center;
-  font-size: 1.8rem;
-  margin-bottom: 0.4rem;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
 }
 
 /* --- RESPONSIVE AYARLARI (MEDIA QUERIES) EKLENICEK --- */
